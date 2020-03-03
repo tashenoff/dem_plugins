@@ -56,6 +56,10 @@ secondaryTabs:
             tab: 'Tab 1'
             form:
                 fields:
+                    desc_title:
+                        label: Заголовок
+                        span: full
+                        type: text
                     desc_r:
                         label: 'Rich editor'
                         size: ''
