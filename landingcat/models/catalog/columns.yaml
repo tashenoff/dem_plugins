@@ -1,0 +1,20 @@
+columns:
+  id:
+    label: id
+    type: number
+    width: 50px
+  name:
+    label: "Название товара"
+    type: text
+    width: 20%
+  short_desc:
+    label: "Короткое описание"
+    type: text
+    width: 40%
+  size:
+    label: SIZE
+    type: partial
+    path: ~/plugins/alex/landingcat/controllers/catalog/_size_column.htm
+  # desc_r:
+  #     label: desc_r
+  #     type: text

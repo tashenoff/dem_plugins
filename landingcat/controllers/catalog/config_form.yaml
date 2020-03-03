@@ -1,0 +1,10 @@
+name: Catalog
+form: $/alex/landingcat/models/catalog/fields.yaml
+modelClass: Alex\Landingcat\Models\Catalog
+defaultRedirect: alex/landingcat/catalog
+create:
+    redirect: 'alex/landingcat/catalog/update/:id'
+    redirectClose: alex/landingcat/catalog
+update:
+    redirect: alex/landingcat/catalog
+    redirectClose: alex/landingcat/catalog

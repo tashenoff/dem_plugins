@@ -1,0 +1,23 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table alex_landingcat_'
+    - builder_table_create_alex_landingcat_.php
+1.0.3:
+    - 'Created table alex_landingcat_two'
+    - builder_table_create_alex_landingcat_two.php
+1.0.4:
+    - 'Drop table alex_landingcat_'
+    - builder_table_delete_alex_landingcat_.php
+1.0.5:
+    - 'Updated table alex_landingcat_two'
+    - builder_table_update_alex_landingcat_two.php
+1.0.6:
+    - 'Created table alex_landingcat_cat'
+    - builder_table_create_alex_landingcat_cat.php
+1.0.7:
+    - 'Updated table alex_landingcat_cat'
+    - builder_table_update_alex_landingcat_cat.php
+1.0.8:
+    - 'Updated table alex_landingcat_cat'
+    - builder_table_update_alex_landingcat_cat_2.php

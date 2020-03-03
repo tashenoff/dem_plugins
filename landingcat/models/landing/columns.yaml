@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: id
+        type: number
+    label:
+        label: label
+        type: text
+    text:
+        label: text
+        type: text
+    short_desc:
+        label: text
+        type: text

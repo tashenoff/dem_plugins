@@ -1,0 +1,4 @@
+title: Catalog
+modelClass: Alex\Landingcat\Models\Catalog
+toolbar:
+    buttons: reorder_toolbar

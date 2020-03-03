@@ -1,0 +1,63 @@
+tabs:
+    fields:
+        size:
+            label: Repeater
+            prompt: 'Add new item'
+            span: auto
+            type: repeater
+            tab: 'Tab 2'
+            form:
+                fields:
+                    size_product:
+                        label: Text
+                        span: auto
+                        type: text
+                    price_product:
+                        label: Text
+                        span: auto
+                        type: text
+secondaryTabs:
+    fields:
+        name:
+            label: Text
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        img:
+            label: 'File upload'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Tab 1'
+        gall:
+            label: 'File upload'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Tab 1'
+        short_desc:
+            label: 'Короткий текст'
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        full_desc:
+            label: Repeater
+            prompt: 'Add new item'
+            span: full
+            type: repeater
+            tab: 'Tab 1'
+            form:
+                fields:
+                    desc_r:
+                        label: 'Rich editor'
+                        size: ''
+                        span: full
+                        type: richeditor

@@ -1,0 +1,11 @@
+name: Landing
+modelClass: Alex\Landingcat\Models\Landing
+form: $/alex/landingcat/models/landing/fields.yaml
+defaultRedirect: alex/landingcat/landing
+create:
+    redirect: 'alex/landingcat/landing/update/:id'
+    redirectClose: alex/landingcat/landing
+update:
+    redirect: alex/landingcat/landing
+    redirectClose: alex/landingcat/landing
+preview: {  }

@@ -1,0 +1,31 @@
+tabs:
+    fields:
+        label:
+            label: 'Название лендинга'
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        img:
+            label: 'File upload'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Tab 1'
+        short_desc:
+            label: Text
+            span: full
+            placeholder: 'Тут короткое описание лендинга'
+            type: text
+            tab: 'Tab 1'
+secondaryTabs:
+    fields:
+        text:
+            label: Инфа
+            size: huge
+            span: full
+            type: richeditor
+            tab: 'Tab 1'

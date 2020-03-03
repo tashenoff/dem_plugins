@@ -1,0 +1,15 @@
+plugin:
+    name: 'alex.landingcat::lang.plugin.name'
+    description: 'alex.landingcat::lang.plugin.description'
+    author: alex
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Лендосы
+        url: alex/landingcat/landing
+        icon: icon-adn
+    main-menu-item2:
+        label: Каталог
+        url: alex/landingcat/catalog
+        icon: icon-adn
