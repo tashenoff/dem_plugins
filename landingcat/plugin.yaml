@@ -13,3 +13,7 @@ navigation:
         label: Каталог
         url: alex/landingcat/catalog
         icon: icon-adn
+    main-menu-item3:
+        label: Эксперты
+        url: alex/landingcat/expert
+        icon: icon-life-ring

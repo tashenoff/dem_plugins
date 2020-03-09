@@ -1,0 +1,10 @@
+name: Expert
+form: $/alex/landingcat/models/expert/fields.yaml
+modelClass: Alex\Landingcat\Models\Expert
+defaultRedirect: alex/landingcat/expert
+create:
+    redirect: 'alex/landingcat/expert/update/:id'
+    redirectClose: alex/landingcat/expert
+update:
+    redirect: alex/landingcat/expert
+    redirectClose: alex/landingcat/expert

@@ -1,0 +1,12 @@
+list: $/alex/landingcat/models/expert/columns.yaml
+modelClass: Alex\Landingcat\Models\Expert
+title: Expert
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'alex/landingcat/expert/update/:id'

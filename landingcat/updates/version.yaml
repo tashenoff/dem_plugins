@@ -21,3 +21,6 @@
 1.0.8:
     - 'Updated table alex_landingcat_cat'
     - builder_table_update_alex_landingcat_cat_2.php
+1.0.9:
+    - 'Created table alex_landingcat_expert'
+    - builder_table_create_alex_landingcat_expert.php

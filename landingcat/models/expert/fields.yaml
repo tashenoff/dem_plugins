@@ -1,0 +1,23 @@
+fields:
+    name:
+        label: Имя
+        span: full
+        type: text
+    says:
+        label: 'Слова эксперта'
+        size: large
+        span: full
+        type: richeditor
+    photo:
+        label: 'Фото эксперта'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    prof:
+        label: Экспертность
+        span: auto
+        type: text
