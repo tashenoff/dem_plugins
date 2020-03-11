@@ -10,8 +10,10 @@ use Model;
 class Landing extends Model
 {
 
+
     public $attachOne = [
-        'img' => ['System\Models\File']
+        'img' => 'System\Models\File',
+        'imgpro' => 'System\Models\File'
     ];
 
 
@@ -28,7 +30,7 @@ class Landing extends Model
      * @var string The database table used by the model.
      */
     public $table = 'alex_landingcat_two';
-
+    protected $jsonable = ['landpro'];
     /**
      * @var array Validation rules
      */

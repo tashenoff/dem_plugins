@@ -29,3 +29,29 @@ secondaryTabs:
             span: full
             type: richeditor
             tab: 'Tab 1'
+        landpro:
+            label: Товар
+            prompt: 'Add new item'
+            span: full
+            type: repeater
+            tab: 'Tab 1'
+            form:
+                fields:
+                    head:
+                        label: Заголовок
+                        span: auto
+                        type: text
+                    descpro:
+                        label: 'Описание продукта'
+                        size: small
+                        span: full
+                        type: richeditor
+                    linkpro:
+                        label: 'Ссылка на продукт'
+                        span: full
+                        type: text
+                    imgpro:
+                        label: картинка
+                        span: auto
+                        mode: image
+                        type: mediafinder
